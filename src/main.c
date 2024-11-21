@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("Hello world!\n");
+    char *master_password;
+    printf("Enter master password\n");
+
+    scanf("&c", master_password);
+    printf("master password %s", master_password);
 
     return 0;
 }
